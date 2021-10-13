@@ -1,0 +1,47 @@
+
+
+
+
+
+.container {
+    border: 5px solid black
+
+}
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    display: grid;
+
+}
+  
+  html, body {
+    background-color: white;
+    margin: 10px;
+    display: grid;
+    
+  }
+  
+  .container > div:nth-child(1) {
+    background-color: blue;	
+    text-align: start;
+  }
+  
+  .container > div:nth-child(2) {
+    background-color: white;
+    text-align: center;
+    
+  }
+  
+  .container > div:nth-child(3){
+    background-color: blue;
+    text-align: end;
+    
+  }
+
+  p { 
+      font-style: italic;
+      color: crimson;
+      
+  }
