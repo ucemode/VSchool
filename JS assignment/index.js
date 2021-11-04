@@ -15,5 +15,10 @@ myDiv.addEventListener("mousedown", function(e){
 
 myDiv.addEventListener("dblclick", function(e){
     console.log(e)
-    e.target.style.backgroundColor = "yellow"
+    e.target.style.backgroundColor = "green"
+})
+
+myDiv.addEventListener("wheel", function(e){
+    console.log(e)
+    e.target.style.backgroundColor = "orange"
 })
